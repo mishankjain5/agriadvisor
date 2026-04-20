@@ -1,0 +1,16 @@
+Rice Cultivation and Management
+
+Growth Stages
+Rice passes through three main phases: vegetative (germination to panicle initiation), reproductive (panicle initiation to flowering), and ripening (flowering to mature grain). The vegetative phase lasts 55-85 days depending on variety. The reproductive phase is approximately 35 days, and ripening takes 30 days.
+
+Water Management
+Rice is traditionally grown under flooded conditions with 5-10 cm standing water. Alternate wetting and drying (AWD) is a water-saving technique where fields are allowed to dry to 15 cm below the soil surface before re-flooding. AWD can reduce water use by 15-30% without significant yield loss. System of Rice Intensification (SRI) uses intermittent irrigation and can reduce water use by up to 40%.
+
+Nutrient Requirements
+Rice requires 80-120 kg N/ha for optimal yields. Nitrogen should be applied in splits: 50% as basal, 25% at active tillering, and 25% at panicle initiation. Phosphorus requirement is 30-60 kg P2O5/ha applied as basal dose. Zinc deficiency is common in rice paddies and can be corrected by applying 25 kg zinc sulfate per hectare.
+
+Pest and Disease Management
+Rice blast caused by Magnaporthe oryzae is the most destructive rice disease worldwide. Symptoms include diamond-shaped lesions on leaves. Brown plant hopper (Nilaparvata lugens) causes hopper burn by sucking plant sap. Integrated pest management combines resistant varieties, biological control with natural predators, and judicious use of pesticides only when economic threshold levels are reached. Stem borers cause deadhearts in the vegetative stage and whiteheads during reproductive stage.
+
+Harvesting
+Rice should be harvested when 80-85% of the grains have turned golden yellow. Delayed harvesting leads to grain shattering and quality loss. Grain moisture at harvest should be 20-24%. Post-harvest drying to 14% moisture is essential for safe storage.

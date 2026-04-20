@@ -1,0 +1,19 @@
+Soil Health and Fertility Management
+
+Soil Composition
+Healthy agricultural soil contains approximately 45% minerals, 25% water, 25% air, and 5% organic matter. The organic matter fraction is the most dynamic and is critical for nutrient cycling, water retention, and soil structure. Soil texture (proportions of sand, silt, and clay) determines water-holding capacity and drainage characteristics.
+
+Soil pH and Liming
+Soil pH affects nutrient availability. Most crops prefer pH 6.0-7.0. Below pH 5.5, aluminum toxicity becomes a concern and phosphorus availability decreases sharply. Liming with calcium carbonate raises soil pH. The amount of lime required depends on current pH, target pH, and soil buffer capacity. Sandy soils require less lime than clay soils to achieve the same pH change.
+
+Organic Matter Management
+Soil organic matter (SOM) improves soil structure, increases water-holding capacity, and provides slow-release nutrients. Each 1% increase in SOM can increase water-holding capacity by approximately 20,000 liters per hectare. Cover cropping, crop residue incorporation, and composting are effective strategies for building SOM. Decomposition of organic matter releases approximately 20-30 kg N/ha per year for each percent of SOM.
+
+Nutrient Cycling
+The three primary macronutrients are nitrogen (N), phosphorus (P), and potassium (K). Nitrogen is the most mobile and commonly deficient nutrient. It exists in soil as organic N, ammonium (NH4+), and nitrate (NO3-). Nitrification converts ammonium to nitrate, which is readily available to plants but also susceptible to leaching. Phosphorus is immobile in soil and accumulates near the application point. Potassium is moderately mobile and essential for water regulation in plants.
+
+Soil Testing
+Regular soil testing every 2-3 years is recommended to monitor nutrient levels and pH. Samples should be taken from the top 15-20 cm of soil at 15-20 random locations within a field. Testing should be done at the same time each year for consistent results. Soil test results guide fertilizer recommendations and help avoid over-application, which reduces environmental impact and input costs.
+
+Biological Health Indicators
+Earthworm populations of 10-15 per square meter indicate good soil biological health. Mycorrhizal fungi form symbiotic relationships with plant roots and improve phosphorus uptake. Crop rotation maintains diverse soil microbial communities and breaks disease cycles. Excessive tillage destroys soil aggregates and reduces fungal networks.

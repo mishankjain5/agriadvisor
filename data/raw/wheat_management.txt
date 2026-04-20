@@ -1,0 +1,16 @@
+Wheat Crop Management Guide
+
+Soil and Climate Requirements
+Wheat thrives in well-drained loamy soils with a pH between 6.0 and 7.5. The crop requires cool temperatures during early growth stages (10-15°C) and warmer conditions during grain filling (20-25°C). Waterlogging is highly detrimental to wheat and should be avoided through proper drainage systems.
+
+Nutrient Management
+Nitrogen is the most critical nutrient for wheat production. Total nitrogen requirement ranges from 120-200 kg/ha depending on soil fertility and yield targets. Nitrogen should be split into three applications: 40% at sowing as basal dose, 30% at tillering stage (Zadoks GS 25), and 30% at stem elongation (Zadoks GS 32). Phosphorus should be applied at 60-80 kg P2O5/ha as a basal dose. Potassium application of 40-60 kg K2O/ha is recommended for potassium-deficient soils.
+
+Common Diseases
+Leaf rust (Puccinia triticina) appears as small, round, orange-brown pustules on leaves. It reduces photosynthetic area and can cause yield losses of 10-30%. Management includes resistant varieties and fungicide application at early infection stages. Powdery mildew (Blumeria graminis) appears as white powdery patches on leaves and stems. It is favored by cool, humid conditions and dense plant stands. Septoria leaf blotch (Zymoseptoria tritici) causes tan lesions with dark pycnidia on leaves and is one of the most damaging wheat diseases in temperate regions.
+
+Irrigation Management
+Wheat has four critical stages for irrigation: crown root initiation (20-25 days after sowing), tillering, jointing, and grain filling. Missing irrigation at the jointing stage causes the highest yield reduction of up to 30%. Total water requirement is 400-500 mm across the growing season. Deficit irrigation strategies can save 20-30% water with only 5-10% yield reduction when water is limited.
+
+Weed Management
+Major weeds in wheat include wild oat (Avena fatua), canary grass (Phalaris minor), and broadleaf weeds like lamb's quarters (Chenopodium album). Pre-emergence herbicides should be applied within 2-3 days of sowing. Post-emergence herbicides are most effective when weeds are at the 2-4 leaf stage. Crop rotation with non-cereal crops reduces weed pressure significantly.
