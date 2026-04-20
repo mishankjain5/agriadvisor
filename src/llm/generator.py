@@ -8,7 +8,7 @@ load_dotenv()
 class Generator:
     """Generates answers using an LLM with retrieved context."""
 
-    def __init__(self, model_name="gemini-2.5-flash"):
+    def __init__(self, model_name="gemini-3.1-flash-lite-preview"):
         self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         self.model_name = model_name
 
