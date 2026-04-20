@@ -2,7 +2,19 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import streamlit as st
+
+# For Streamlit Cloud deployment: load API key from secrets
+if "GEMINI_API_KEY" not in os.environ:
+    try:
+        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        st.error("Please set GEMINI_API_KEY in .env file or Streamlit secrets.")
+        st.stop()
+        
 import time
 from src.retrieval.retriever import Retriever
 from src.llm.generator import Generator
