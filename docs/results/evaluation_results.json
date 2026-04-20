@@ -1,0 +1,896 @@
+{
+  "timestamp": "2026-04-20T23:48:59.707616",
+  "total_questions": 20,
+  "completed": 20,
+  "results": [
+    {
+      "query": "What is the ideal soil pH for wheat?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.6871991753578186
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The ideal soil pH for wheat is between 6.0 and 7.5.",
+          "keyword_recall": 0.6666666666666666,
+          "found_keywords": [
+            "6.0",
+            "7.5"
+          ],
+          "missing_keywords": [
+            "loamy"
+          ],
+          "answer_length": 51
+        },
+        "few_shot": {
+          "answer": "Answer: Wheat thrives in well-drained loamy soils with a pH between 6.0 and 7.5.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "6.0",
+            "7.5",
+            "loamy"
+          ],
+          "missing_keywords": [],
+          "answer_length": 80
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant context:** The \"Soil and Climate Requirements\" section of the \"Wheat Crop Management Guide\" explicitly mentions the pH range for wheat.\n2.  **Extract key facts:** The text states, \"Wheat thrives in well-drained loamy soils with a pH between 6.0 and 7.5.\"\n3.  **Formulate answer:** The ideal soil pH for wheat is between 6.0 and 7.5.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "6.0",
+            "7.5",
+            "loamy"
+          ],
+          "missing_keywords": [],
+          "answer_length": 385
+        }
+      }
+    },
+    {
+      "query": "How much nitrogen does wheat need per hectare?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.7533906698226929
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The total nitrogen requirement for wheat ranges from 120-200 kg/ha, depending on soil fertility and yield targets.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "120",
+            "200",
+            "kg/ha"
+          ],
+          "missing_keywords": [],
+          "answer_length": 114
+        },
+        "few_shot": {
+          "answer": "Wheat requires 120-200 kg of nitrogen per hectare, depending on soil fertility and yield targets.",
+          "keyword_recall": 0.6666666666666666,
+          "found_keywords": [
+            "120",
+            "200"
+          ],
+          "missing_keywords": [
+            "kg/ha"
+          ],
+          "answer_length": 97
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant context:** The question specifically asks about nitrogen requirements for wheat. The source \"wheat_management.txt\" (Relevance 0.75) explicitly contains information on nutrient management for wheat.\n2.  **Extract key facts:** The text states, \"Total nitrogen requirement ranges from 120-200 kg/ha depending on soil fertility and yield targets.\"\n3.  **Formulate answer:** Based on the provided guide, wheat requires 120-200 kg of nitrogen per hectare, depending on soil fertility and yield targets.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "120",
+            "200",
+            "kg/ha"
+          ],
+          "missing_keywords": [],
+          "answer_length": 549
+        }
+      }
+    },
+    {
+      "query": "When should nitrogen be applied to wheat?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.7472114562988281
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Nitrogen should be applied to wheat in three applications: 40% at sowing as a basal dose, 30% at the tillering stage (Zadoks GS 25), and 30% at stem elongation (Zadoks GS 32).",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "sowing",
+            "tillering",
+            "stem elongation"
+          ],
+          "missing_keywords": [],
+          "answer_length": 175
+        },
+        "few_shot": {
+          "answer": "Nitrogen for wheat should be applied in three separate applications: 40% at sowing as a basal dose, 30% at the tillering stage (Zadoks GS 25), and 30% at stem elongation (Zadoks GS 32).",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "sowing",
+            "tillering",
+            "stem elongation"
+          ],
+          "missing_keywords": [],
+          "answer_length": 185
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant parts of the context:** The document `wheat_management.txt` contains a section on \"Nutrient Management\" that explicitly addresses nitrogen application for wheat. The other documents (`rice_cultivation.txt`) are irrelevant to wheat management.\n2.  **Extract key facts:** The context states that nitrogen should be applied in three separate applications:\n    *   40% at sowing as a basal dose.\n    *   30% at the tillering stage (Zadoks GS 25).\n    *   30% at stem elongation (Zadoks GS 32).\n3.  **Formulate the answer:** \n\nFor wheat, nitrogen should be applied in three split applications:\n*   **40%** at sowing (basal dose).\n*   **30%** at the tillering stage (Zadoks GS 25).\n*   **30%** at the stem elongation stage (Zadoks GS 32).",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "sowing",
+            "tillering",
+            "stem elongation"
+          ],
+          "missing_keywords": [],
+          "answer_length": 785
+        }
+      }
+    },
+    {
+      "query": "What are the symptoms of leaf rust in wheat?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.5113254189491272
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The symptoms of leaf rust in wheat are small, round, orange-brown pustules on the leaves.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "orange",
+            "brown",
+            "pustules"
+          ],
+          "missing_keywords": [],
+          "answer_length": 89
+        },
+        "few_shot": {
+          "answer": "Leaf rust (Puccinia triticina) appears as small, round, orange-brown pustules on the leaves of wheat plants.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "orange",
+            "brown",
+            "pustules"
+          ],
+          "missing_keywords": [],
+          "answer_length": 108
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is found in the first source file (wheat_management.txt), which explicitly discusses wheat diseases.\n\n**Step 2: Extract key facts**\n*   The disease is identified as Leaf rust (*Puccinia triticina*).\n*   The symptoms are described as small, round, orange-brown pustules on the leaves.\n\n**Step 3: Formulate answer**\nThe symptoms of leaf rust in wheat appear as small, round, orange-brown pustules located on the leaves.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "orange",
+            "brown",
+            "pustules"
+          ],
+          "missing_keywords": [],
+          "answer_length": 493
+        }
+      }
+    },
+    {
+      "query": "How much yield loss can leaf rust cause?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.4421275854110718
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Leaf rust can cause yield losses of 10-30%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "10",
+            "30"
+          ],
+          "missing_keywords": [],
+          "answer_length": 43
+        },
+        "few_shot": {
+          "answer": "Leaf rust can cause yield losses of 10-30%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "10",
+            "30"
+          ],
+          "missing_keywords": [],
+          "answer_length": 43
+        },
+        "chain_of_thought": {
+          "answer": "ERROR: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [
+            "10",
+            "30"
+          ],
+          "answer_length": 0
+        }
+      }
+    },
+    {
+      "query": "What are the critical irrigation stages for wheat?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.7358182072639465
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The critical irrigation stages for wheat are crown root initiation (20-25 days after sowing), tillering, jointing, and grain filling.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "crown root",
+            "tillering",
+            "jointing",
+            "grain filling"
+          ],
+          "missing_keywords": [],
+          "answer_length": 133
+        },
+        "few_shot": {
+          "answer": "Answer: Wheat has four critical stages for irrigation: crown root initiation (20-25 days after sowing), tillering, jointing, and grain filling. Missing irrigation at the jointing stage is particularly important, as it causes the highest yield reduction of up to 30%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "crown root",
+            "tillering",
+            "jointing",
+            "grain filling"
+          ],
+          "missing_keywords": [],
+          "answer_length": 266
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is found in the \"Irrigation Management\" section of the provided text, which explicitly lists the critical stages for wheat irrigation.\n\n**Step 2: Extract key facts**\n*   Wheat has four critical stages for irrigation.\n*   The stages are: crown root initiation (20-25 days after sowing), tillering, jointing, and grain filling.\n\n**Step 3: Formulate the answer**\nThe four critical irrigation stages for wheat are:\n1.  **Crown root initiation** (20-25 days after sowing)\n2.  **Tillering**\n3.  **Jointing**\n4.  **Grain filling**",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "crown root",
+            "tillering",
+            "jointing",
+            "grain filling"
+          ],
+          "missing_keywords": [],
+          "answer_length": 599
+        }
+      }
+    },
+    {
+      "query": "Which irrigation stage causes the highest yield loss if missed?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "hard",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.6225104928016663
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Missing irrigation at the jointing stage causes the highest yield reduction of up to 30%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "jointing",
+            "30%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 89
+        },
+        "few_shot": {
+          "answer": "Answer: Missing irrigation at the jointing stage causes the highest yield reduction for wheat, resulting in a loss of up to 30%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "jointing",
+            "30%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 128
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant context:** I reviewed the provided texts to find information regarding irrigation stages for crops. The source \"wheat_management.txt\" contains specific details about irrigation stages for wheat.\n2.  **Extract key facts:** The text explicitly states: \"Missing irrigation at the jointing stage causes the highest yield reduction of up to 30%.\"\n3.  **Formulate answer:** Based on the provided context, the jointing stage is the irrigation stage that causes the highest yield loss if missed.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "jointing",
+            "30%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 540
+        }
+      }
+    },
+    {
+      "query": "What are the major weeds found in wheat fields?",
+      "expected_source": "wheat_management.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.6213445067405701
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The major weeds found in wheat include wild oat (Avena fatua), canary grass (Phalaris minor), and broadleaf weeds like lamb's quarters (Chenopodium album).",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "wild oat",
+            "canary grass"
+          ],
+          "missing_keywords": [],
+          "answer_length": 155
+        },
+        "few_shot": {
+          "answer": "The major weeds found in wheat include wild oat (Avena fatua), canary grass (Phalaris minor), and broadleaf weeds like lamb's quarters (Chenopodium album).",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "wild oat",
+            "canary grass"
+          ],
+          "missing_keywords": [],
+          "answer_length": 155
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant parts of the context:** The document titled \"Weed Management\" explicitly lists the types of weeds found in wheat.\n2.  **Extract key facts:** The text identifies wild oat (*Avena fatua*), canary grass (*Phalaris minor*), and broadleaf weeds like lamb's quarters (*Chenopodium album*) as major weeds in wheat.\n3.  **Formulate the answer:**\n\n**Answer:**\nThe major weeds found in wheat fields are:\n*   Wild oat (*Avena fatua*)\n*   Canary grass (*Phalaris minor*)\n*   Broadleaf weeds, such as lamb's quarters (*Chenopodium album*)",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "wild oat",
+            "canary grass"
+          ],
+          "missing_keywords": [],
+          "answer_length": 578
+        }
+      }
+    },
+    {
+      "query": "How much water does rice need compared to traditional flooding?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.6288049817085266
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Compared to traditional flooding, water usage can be reduced using the following techniques:\n\n*   **Alternate wetting and drying (AWD):** Can reduce water use by 15-30% without significant yield loss.\n*   **System of Rice Intensification (SRI):** Uses intermittent irrigation and can reduce water use by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "AWD",
+            "alternate",
+            "wetting",
+            "drying"
+          ],
+          "missing_keywords": [],
+          "answer_length": 314
+        },
+        "few_shot": {
+          "answer": "Compared to traditional flooding, which uses 5-10 cm of standing water, alternative water management techniques can significantly reduce water usage. The Alternate Wetting and Drying (AWD) technique can reduce water use by 15-30% without significant yield loss, while the System of Rice Intensification (SRI) can reduce water use by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "AWD",
+            "alternate",
+            "wetting",
+            "drying"
+          ],
+          "missing_keywords": [],
+          "answer_length": 343
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant section is \"Water Management\" from `rice_cultivation.txt`.\n\n**Step 2: Extract key facts**\n*   Traditional method: Flooded conditions with 5-10 cm standing water.\n*   Alternate wetting and drying (AWD): Reduces water use by 15-30% compared to traditional flooding.\n*   System of Rice Intensification (SRI): Uses intermittent irrigation and reduces water use by up to 40% compared to traditional flooding.\n\n**Step 3: Formulate answer**\nCompared to traditional flooding (which requires 5-10 cm of standing water), you can reduce water consumption using the following methods:\n*   **Alternate wetting and drying (AWD):** This technique can reduce water use by 15-30% without significant yield loss.\n*   **System of Rice Intensification (SRI):** This method uses intermittent irrigation and can reduce water use by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "AWD",
+            "alternate",
+            "wetting",
+            "drying"
+          ],
+          "missing_keywords": [],
+          "answer_length": 884
+        }
+      }
+    },
+    {
+      "query": "What causes rice blast disease?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.7650167942047119
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Rice blast disease is caused by *Magnaporthe oryzae*.",
+          "keyword_recall": 0.6666666666666666,
+          "found_keywords": [
+            "Magnaporthe",
+            "oryzae"
+          ],
+          "missing_keywords": [
+            "diamond"
+          ],
+          "answer_length": 53
+        },
+        "few_shot": {
+          "answer": "Rice blast disease is caused by the fungus *Magnaporthe oryzae*.",
+          "keyword_recall": 0.6666666666666666,
+          "found_keywords": [
+            "Magnaporthe",
+            "oryzae"
+          ],
+          "missing_keywords": [
+            "diamond"
+          ],
+          "answer_length": 64
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is located in the first paragraph of the source `rice_cultivation.txt`.\n\n**Step 2: Extract key facts**\n*   Rice blast is a destructive rice disease.\n*   The cause of rice blast is the fungus *Magnaporthe oryzae*.\n\n**Step 3: Formulate a clear answer**\nRice blast disease is caused by the fungus *Magnaporthe oryzae*.",
+          "keyword_recall": 0.6666666666666666,
+          "found_keywords": [
+            "Magnaporthe",
+            "oryzae"
+          ],
+          "missing_keywords": [
+            "diamond"
+          ],
+          "answer_length": 391
+        }
+      }
+    },
+    {
+      "query": "When should rice be harvested?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.7512498497962952
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Rice should be harvested when 80-85% of the grains have turned golden yellow and the grain moisture is between 20-24%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "80",
+            "85",
+            "golden yellow"
+          ],
+          "missing_keywords": [],
+          "answer_length": 118
+        },
+        "few_shot": {
+          "answer": "Rice should be harvested when 80-85% of the grains have turned golden yellow. Grain moisture at the time of harvest should be between 20-24%. It is important to avoid delayed harvesting, as this leads to grain shattering and loss of quality.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "80",
+            "85",
+            "golden yellow"
+          ],
+          "missing_keywords": [],
+          "answer_length": 241
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant parts of the context:** The section titled \"Harvesting\" in `rice_cultivation.txt` directly addresses when rice should be harvested.\n2.  **Extract key facts:** \n    *   Rice should be harvested when 80-85% of the grains have turned golden yellow.\n    *   Grain moisture should be between 20-24% at the time of harvest.\n    *   Delaying the harvest should be avoided to prevent grain shattering and quality loss.\n3.  **Formulate the answer:** Rice should be harvested when 80-85% of the grains have turned golden yellow, and the grain moisture content is between 20-24%. It is important not to delay the harvest, as this results in grain shattering and a loss of quality.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "80",
+            "85",
+            "golden yellow"
+          ],
+          "missing_keywords": [],
+          "answer_length": 722
+        }
+      }
+    },
+    {
+      "query": "What is the ideal grain moisture for safe rice storage?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.6492140889167786
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The ideal grain moisture for safe rice storage is 14%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "14%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 54
+        },
+        "few_shot": {
+          "answer": "The ideal grain moisture for safe rice storage is 14%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "14%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 54
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant context:** The document `rice_cultivation.txt` contains information regarding harvesting and storage of rice.\n2.  **Extract key facts:** The text states, \"Post-harvest drying to 14% moisture is essential for safe storage.\"\n3.  **Formulate answer:**\n\nThe ideal grain moisture for safe rice storage is 14%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "14%"
+          ],
+          "missing_keywords": [],
+          "answer_length": 357
+        }
+      }
+    },
+    {
+      "query": "How does soil organic matter help with water retention?",
+      "expected_source": "soil_health.txt",
+      "difficulty": "hard",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "soil_health.txt",
+        "top_similarity": 0.6576023697853088
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Soil organic matter improves water retention by increasing the soil's water-holding capacity. Specifically, each 1% increase in soil organic matter can increase water-holding capacity by approximately 20,000 liters per hectare. It is also noted as a critical component for water retention within the organic matter fraction of the soil.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "20,000",
+            "liters",
+            "hectare"
+          ],
+          "missing_keywords": [],
+          "answer_length": 336
+        },
+        "few_shot": {
+          "answer": "Soil organic matter (SOM) improves water retention by increasing the soil's water-holding capacity. Each 1% increase in SOM can increase water-holding capacity by approximately 20,000 liters per hectare. It achieves this by contributing to the soil's structure, which is critical for the soil's ability to retain water.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "20,000",
+            "liters",
+            "hectare"
+          ],
+          "missing_keywords": [],
+          "answer_length": 319
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant parts of the context:** The document \"Organic Matter Management\" explicitly states that soil organic matter (SOM) \"increases water-holding capacity\" and provides a specific quantification. The \"Soil Health and Fertility Management\" section also mentions that the organic matter fraction is \"critical for... water retention.\"\n2.  **Extract key facts:** \n    *   SOM increases the soil's water-holding capacity.\n    *   Each 1% increase in SOM can increase water-holding capacity by approximately 20,000 liters per hectare.\n3.  **Formulate the answer:**\n\n**Answer:**\nSoil organic matter (SOM) improves soil structure, which in turn increases the soil's water-holding capacity. Specifically, each 1% increase in SOM can increase the water-holding capacity of the soil by approximately 20,000 liters per hectare.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "20,000",
+            "liters",
+            "hectare"
+          ],
+          "missing_keywords": [],
+          "answer_length": 861
+        }
+      }
+    },
+    {
+      "query": "How often should soil testing be done?",
+      "expected_source": "soil_health.txt",
+      "difficulty": "easy",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "soil_health.txt",
+        "top_similarity": 0.8624867796897888
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Regular soil testing should be done every 2-3 years.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "2",
+            "3",
+            "years"
+          ],
+          "missing_keywords": [],
+          "answer_length": 52
+        },
+        "few_shot": {
+          "answer": "Answer: Regular soil testing should be done every 2-3 years. It is recommended to perform these tests at the same time each year to ensure consistent results.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "2",
+            "3",
+            "years"
+          ],
+          "missing_keywords": [],
+          "answer_length": 158
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is found in the \"Soil Testing\" section of `soil_health.txt`.\n\n**Step 2: Extract key facts**\n* The provided text explicitly states that \"Regular soil testing every 2-3 years is recommended.\"\n\n**Step 3: Formulate a clear answer**\nBased on the provided context, you should conduct soil testing every 2-3 years to monitor nutrient levels and pH.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "2",
+            "3",
+            "years"
+          ],
+          "missing_keywords": [],
+          "answer_length": 417
+        }
+      }
+    },
+    {
+      "query": "What do earthworm populations indicate about soil?",
+      "expected_source": "soil_health.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "soil_health.txt",
+        "top_similarity": 0.6987097263336182
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Earthworm populations of 10-15 per square meter indicate good soil biological health.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "10",
+            "15",
+            "biological health"
+          ],
+          "missing_keywords": [],
+          "answer_length": 85
+        },
+        "few_shot": {
+          "answer": "Earthworm populations of 10-15 per square meter indicate good biological health in the soil.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "10",
+            "15",
+            "biological health"
+          ],
+          "missing_keywords": [],
+          "answer_length": 92
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Identify relevant parts of the context:** The first paragraph under \"Biological Health Indicators\" explicitly mentions earthworm populations.\n2.  **Extract key facts:** The text states that \"Earthworm populations of 10-15 per square meter indicate good soil biological health.\"\n3.  **Formulate the answer:** Earthworm populations of 10-15 per square meter indicate that the soil has good biological health.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "10",
+            "15",
+            "biological health"
+          ],
+          "missing_keywords": [],
+          "answer_length": 441
+        }
+      }
+    },
+    {
+      "query": "What happens below soil pH 5.5?",
+      "expected_source": "soil_health.txt",
+      "difficulty": "hard",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "soil_health.txt",
+        "top_similarity": 0.64475417137146
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "Below soil pH 5.5, aluminum toxicity becomes a concern and phosphorus availability decreases sharply.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "aluminum",
+            "toxicity",
+            "phosphorus"
+          ],
+          "missing_keywords": [],
+          "answer_length": 101
+        },
+        "few_shot": {
+          "answer": "Below soil pH 5.5, aluminum toxicity becomes a concern and phosphorus availability decreases sharply.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "aluminum",
+            "toxicity",
+            "phosphorus"
+          ],
+          "missing_keywords": [],
+          "answer_length": 101
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is located in the first source, \"Soil pH and Liming\" from *soil_health.txt*, which explicitly discusses the impacts of soil pH levels.\n\n**Step 2: Extract key facts**\n*   Below pH 5.5, aluminum toxicity becomes a concern.\n*   Below pH 5.5, phosphorus availability decreases sharply.\n\n**Step 3: Formulate the answer**\nWhen the soil pH drops below 5.5, two primary issues occur: aluminum toxicity becomes a concern, and the availability of phosphorus to the crops decreases sharply.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "aluminum",
+            "toxicity",
+            "phosphorus"
+          ],
+          "missing_keywords": [],
+          "answer_length": 555
+        }
+      }
+    },
+    {
+      "query": "What is the best way to fix zinc deficiency in rice?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.48554152250289917
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The best way to fix zinc deficiency in rice is by applying 25 kg of zinc sulfate per hectare.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "25",
+            "zinc sulfate"
+          ],
+          "missing_keywords": [],
+          "answer_length": 93
+        },
+        "few_shot": {
+          "answer": "Zinc deficiency in rice can be corrected by applying 25 kg of zinc sulfate per hectare.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "25",
+            "zinc sulfate"
+          ],
+          "missing_keywords": [],
+          "answer_length": 87
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is found in the \"Nutrient Requirements\" section of the provided text, which specifically addresses zinc deficiency.\n\n**Step 2: Extract key facts**\n*   Zinc deficiency is common in rice paddies.\n*   The deficiency can be corrected by applying 25 kg of zinc sulfate per hectare.\n\n**Step 3: Formulate the answer**\nThe best way to fix zinc deficiency in rice is to apply 25 kg of zinc sulfate per hectare.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "25",
+            "zinc sulfate"
+          ],
+          "missing_keywords": [],
+          "answer_length": 477
+        }
+      }
+    },
+    {
+      "query": "How can I reduce water usage in rice farming?",
+      "expected_source": "rice_cultivation.txt",
+      "difficulty": "medium",
+      "retrieval": {
+        "correct_at_1": true,
+        "correct_in_top_k": true,
+        "top_source": "rice_cultivation.txt",
+        "top_similarity": 0.6395993232727051
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "To reduce water usage in rice farming, you can use the following techniques:\n\n*   **Alternate Wetting and Drying (AWD):** This technique involves allowing the field to dry to 15 cm below the soil surface before re-flooding, which can reduce water use by 15-30% without significant yield loss.\n*   **System of Rice Intensification (SRI):** This method utilizes intermittent irrigation and can reduce water use by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "SRI",
+            "AWD",
+            "intermittent"
+          ],
+          "missing_keywords": [],
+          "answer_length": 422
+        },
+        "few_shot": {
+          "answer": "You can reduce water usage in rice farming by using the following techniques:\n\n*   **Alternate Wetting and Drying (AWD):** This technique involves allowing the fields to dry to 15 cm below the soil surface before re-flooding, which can reduce water use by 15-30% without significant yield loss.\n*   **System of Rice Intensification (SRI):** This method uses intermittent irrigation and can reduce water use by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "SRI",
+            "AWD",
+            "intermittent"
+          ],
+          "missing_keywords": [],
+          "answer_length": 420
+        },
+        "chain_of_thought": {
+          "answer": "**Step 1: Identify relevant parts of the context**\nThe relevant information is located in the section titled \"Water Management\" within the `rice_cultivation.txt` source.\n\n**Step 2: Extract key facts**\n*   **Alternate wetting and drying (AWD):** Fields are allowed to dry to 15 cm below the soil surface before re-flooding. This technique reduces water use by 15-30% without significant yield loss.\n*   **System of Rice Intensification (SRI):** Uses intermittent irrigation and can reduce water use by up to 40%.\n\n**Step 3: Formulate a clear answer**\nTo reduce water usage in rice farming, you can implement the following techniques:\n*   **Alternate Wetting and Drying (AWD):** Allow your fields to dry to 15 cm below the soil surface before re-flooding them. This method can save 15-30% of water without a significant reduction in yield.\n*   **System of Rice Intensification (SRI):** Utilize intermittent irrigation, which can reduce water consumption by up to 40%.",
+          "keyword_recall": 1.0,
+          "found_keywords": [
+            "SRI",
+            "AWD",
+            "intermittent"
+          ],
+          "missing_keywords": [],
+          "answer_length": 965
+        }
+      }
+    },
+    {
+      "query": "What is the capital of France?",
+      "expected_source": "none",
+      "difficulty": "out_of_domain",
+      "retrieval": {
+        "correct_at_1": false,
+        "correct_in_top_k": false,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.11873990297317505
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The provided context does not contain information about the capital of France.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 78
+        },
+        "few_shot": {
+          "answer": "The provided context does not contain information about the capital of France.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 78
+        },
+        "chain_of_thought": {
+          "answer": "1. **Identify relevant parts of the context:** I have reviewed the provided documents (\"wheat_management.txt\", \"soil_health.txt\", and \"rice_cultivation.txt\").\n2. **Extract key facts:** None of the provided documents contain information regarding the geography or capital cities of countries.\n3. **Formulate answer:** The provided context does not contain enough information to answer your question.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 398
+        }
+      }
+    },
+    {
+      "query": "How do I repair my tractor engine?",
+      "expected_source": "none",
+      "difficulty": "out_of_domain",
+      "retrieval": {
+        "correct_at_1": false,
+        "correct_in_top_k": false,
+        "top_source": "wheat_management.txt",
+        "top_similarity": 0.21420514583587646
+      },
+      "strategies": {
+        "zero_shot": {
+          "answer": "The provided context does not contain information on how to repair a tractor engine.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 84
+        },
+        "few_shot": {
+          "answer": "The provided context does not contain information regarding tractor engine repair.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 82
+        },
+        "chain_of_thought": {
+          "answer": "**Step-by-step reasoning:**\n\n1.  **Analyze the request:** The farmer is asking for instructions on how to repair a tractor engine.\n2.  **Review provided context:** I have scanned the provided text snippets regarding \"Nutrient Management,\" \"Irrigation Management,\" and \"Soil and Climate Requirements\" for wheat crop management.\n3.  **Evaluate relevance:** None of the provided context contains information regarding machinery maintenance or tractor engine repair.\n\n**Answer:**\nThe provided context does not contain any information on how to repair a tractor engine. The documents only cover wheat nutrient management, irrigation requirements, and soil/climate conditions for wheat production.",
+          "keyword_recall": null,
+          "found_keywords": [],
+          "missing_keywords": [],
+          "answer_length": 691
+        }
+      }
+    }
+  ]
+}
